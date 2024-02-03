@@ -1,5 +1,8 @@
 import React, { Fragment } from "react";
-import Header from "../components/Header";
+import Header from "../components/Header/Header";
+import './Home.css'
+import Search from "../components/Search/Search";
+import List from "../components/List/List";
 
 class Home extends React.Component {
     constructor(props) {
@@ -10,7 +13,10 @@ class Home extends React.Component {
         return (
             <Fragment>
                 <Header />
-                <p>Home Page</p>
+
+                <Search />
+
+                <List />
             </Fragment>
         )
     }

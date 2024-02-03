@@ -1,6 +1,6 @@
 import React from "react"
-import '../../assets/css/header.css'
-import '../../assets/css/bootstrap.min.css'
+import '../../../assets/css/header.css'
+import '../../../assets/css/bootstrap.min.css'
 import 'boxicons'
 import $ from 'jquery'
 
