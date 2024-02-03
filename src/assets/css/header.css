@@ -74,10 +74,14 @@ nav .navbar .links li a {
     font-weight: 500;
 }
 
-.links li:hover #htmlcss-arrow,
+.links li:hover #htmlcss-arrow {
+    transform: rotate(180deg);
+    position: relative;
+    top: 35px;
+}
+
 .links li:hover .js-arrow {
     transform: rotate(180deg);
-    margin-top: 40px;
 }
 
 nav .navbar .links li .arrow {
@@ -316,7 +320,7 @@ nav .navbar .links li a:hover {
 
     .links li:hover #htmlcss-arrow {
         transform: rotate(0deg);
-        transition: 0.5s;
+        transition: all 1s ease-in;
     }
 
     .links li:hover .js-arrow {
